@@ -1,0 +1,37 @@
+#container {
+    width: 640px;
+    height: 640px;
+    border: 2px solid rgb(12, 12, 12);
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+}
+
+.box {
+    /*border: 1px solid rgb(211, 208, 208);*/
+    box-sizing: border-box;
+    flex: 1 1 40px;
+    opacity: 0;  
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(231, 228, 213);
+}
+
+#btn {
+    margin: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 5px;
+}
+
+
+    
